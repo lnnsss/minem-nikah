@@ -467,11 +467,10 @@ a {
   justify-items: center;
   gap: 16px;
   padding: clamp(20px, 5vw, 28px) 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.22);
 }
 
-.event:last-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+.event + .event {
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 .event time {
